@@ -6,6 +6,8 @@ oc: 0.8.5
 ##### Mac Ventura（master branch）
 13.0
 
+### 添加核显加速支持
+
 ## 重要说明！ Attention!
 请使用**OpenCore Configurator**工具生成一个新的Mac序列号。       
 Please use **OpenCore Configurator** to generate new SN.

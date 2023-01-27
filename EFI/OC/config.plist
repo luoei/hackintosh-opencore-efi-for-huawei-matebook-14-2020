@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>定制</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -16,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>定制文件</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>定制</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>修复亮度控制</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>禁用独显</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -56,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>在 macOS 中启用许多仅限 Windows 的功能,需要 XOSI 补丁，触控板</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>修复亮度控制</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>允许在 Haswell 和更新版本上进行本机 CPU 电源管理</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -80,7 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>修复了嵌入式控制器和 USB 电源</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -88,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>禁用EC</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>定制</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -112,7 +112,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>定制</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -120,7 +120,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>定制</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -128,7 +128,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>注入x86</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -136,7 +136,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>修复SBUS</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -144,7 +144,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>综合扩展补丁</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -152,7 +152,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>屏蔽独显</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -689,24 +689,24 @@
 				<string>Internal@0,31,3</string>
 				<key>device_type</key>
 				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>FQAAAA==</data>
+				<integer>21</integer>
 				<key>model</key>
-				<string>Comet Lake PCH-LP cAVS</string>
+				<string>Multimedia Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>CQCbPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
+				<data>BAClPg==</data>
+				<key>agdpmod</key>
+				<string>vit9696</string>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>pT4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
+				<key>enable-backlight-registers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
@@ -714,80 +714,32 @@
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-busid</key>
-				<data>AAAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAAIAAIAAACYAAAA</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-flags</key>
-				<data>mAAAAA==</data>
-				<key>framebuffer-con0-index</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-busid 2</key>
-				<data>BQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUJAAAEAADHAwAA</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-flags</key>
-				<data>hwEAAA==</data>
-				<key>framebuffer-con1-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-index</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-preferred-lspcon-mode</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con1-type 2</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con2-busid</key>
-				<data>BAAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgQKAAAEAADHAwAA</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-flags</key>
-				<data>hwEAAA==</data>
-				<key>framebuffer-con2-index</key>
-				<data>/////w==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con2-pipe 2</key>
-				<data>CgAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con2-type 2</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con3-busid</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con3-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con3-flags</key>
-				<data>IAAAAA==</data>
-				<key>framebuffer-con3-index</key>
-				<data>/////w==</data>
-				<key>framebuffer-con3-pipe</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con3-type</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
-				<key>framebuffer-flags</key>
-				<data>DxvzAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-portcount</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>AADgAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel CoffeeLake-H GT2 [UHD Graphics 630]</string>
+				<string>Intel(R) UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -911,7 +863,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0</string>
+				<string>V2.2.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -927,13 +879,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
+				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0</string>
+				<string>V2.6.4</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
+				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -949,7 +901,7 @@
 				<key>Comment</key>
 				<string>V2.2.0</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
@@ -963,13 +915,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BlueToolFixup.kext</string>
+				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>V2.6.4</string>
+				<string>V2.2.0</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BlueToolFixup</string>
+				<string>Contents/MacOS/IntelBTPatcher</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1145,7 +1097,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.3.1</string>
+				<string>V2.2.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1181,7 +1133,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.3.1</string>
+				<string>V2.2.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1199,7 +1151,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>V2.3.1</string>
+				<string>V2.2.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1217,7 +1169,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>V2.3.1</string>
+				<string>V2.2.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1294,24 +1246,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VerbStub</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string>V2.2.0</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1449,9 +1383,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>IntelBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string>V2.2.0</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>RtWlanU.kext</string>
 				<key>Comment</key>
-				<string>V1830.32.b27</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1469,7 +1421,7 @@
 				<key>BundlePath</key>
 				<string>RtWlanU1827.kext</string>
 				<key>Comment</key>
-				<string>V1827.4.b36</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1878,21 +1830,21 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>Auto</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>17</integer>
+			<integer>16</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera\Syrah</string>
+			<string>Default</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1900,7 +1852,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1923,6 +1875,24 @@
 		</dict>
 		<key>Entries</key>
 		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>Deepin</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,6D-EE-29-00-03-8E-E3-8C)/HD(1,GPT,3B43DA98-8749-45CB-8A35-83EFC6623FAA,0x800,0x3A000)/\EFI\deepin\grub.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -2033,7 +2003,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string>Memory testing utility</string>
 				<key>Enabled</key>
@@ -2047,7 +2017,7 @@
 				<key>Path</key>
 				<string>memtest86/BOOTX64.efi</string>
 				<key>RealPath</key>
-				<true/>
+				<false/>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -2055,7 +2025,7 @@
 				<key>Arguments</key>
 				<string>Shutdown</string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string>Perform shutdown</string>
 				<key>Enabled</key>
@@ -2095,6 +2065,28 @@
 				<key>TextMode</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>ToggleSipEntry</string>
+				<key>Path</key>
+				<string>ToggleSipEntry.efi</string>
+				<key>RealPath</key>
+				<true/>
+				<key>TextMode</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -2118,8 +2110,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1  -dbgenhdbg -dbgenhbeta -dbgenhiolog swd_panic=1 alcid=21 igfxonln=1 
- igfxrpsc=1 igfxfw=2 -igfxblr  -wegnoegpu -igfxbls -lilubetaall</string>
+				<string>keepsyms=1 -dbgenhdbg -dbgenhbeta -dbgenhiolog swd_panic=1 alcid=21 igfxonln=1 igfxrpsc=1 igfxfw=2 -igfxblr -wegnoegpu -igfxbls</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2184,6 +2175,37 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string>Mac-E7203C0F68AA0004</string>
+			<key>BoardRevision</key>
+			<data>Aw==</data>
+			<key>DevicePathsSupported</key>
+			<integer>0</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string></string>
+			<key>SmcBranch</key>
+			<data></data>
+			<key>SmcPlatform</key>
+			<data>ajIyMwAAAAA=</data>
+			<key>SmcRevision</key>
+			<data></data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
+			<key>SystemProductName</key>
+			<string>MacBookPro16,3</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DJFYHP3XY</string>
+			<key>SystemUUID</key>
+			<string>21B9227A-BDE8-4C36-A8D1-D9916F782490</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -2191,21 +2213,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02846310GUJH4RFB</string>
+			<string>C02041609GU00001M</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>CpOTF0s5</data>
+			<data>hahS3Iyh</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
+			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XP3ZUJHCC</string>
+			<string>C02DJFYHP3XY</string>
 			<key>SystemUUID</key>
-			<string>930E49BC-E252-41F5-A95E-468AFBDE3067</string>
+			<string>21B9227A-BDE8-4C36-A8D1-D9916F782490</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2246,7 +2268,7 @@
 			<key>KeyInitialDelay</key>
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
-			<integer>5</integer>
+			<integer>3</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -2353,7 +2375,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
